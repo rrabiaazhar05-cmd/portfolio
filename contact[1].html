@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Home</title>
+  
+   <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 20px;
+      background-color: #f9f9f9;
+    }
+
+    h1 {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+
+    .contact-container {
+      max-width: 600px;
+      margin: auto;
+      background-color: #fff;
+      padding: 30px;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+    }
+
+    .contact-container label {
+      display: block;
+      margin-bottom: 5px;
+      font-weight: bold;
+    }
+
+    .contact-container input,
+    .contact-container textarea {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 20px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      box-sizing: border-box;
+      font-size: 16px;
+    }
+
+    .contact-container textarea {
+      height: 120px;
+      resize: vertical;
+    }
+
+    .contact-container button {
+      background-color: #4CAF50;
+      color: white;
+      padding: 12px 25px;
+      border: none;
+      border-radius: 5px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+
+    .contact-container button:hover {
+      background-color: #45a049;
+    }
+
+    .contact-info {
+      margin-top: 30px;
+      text-align: center;
+      font-size: 16px;
+    }
+
+    .contact-info p {
+      margin: 5px 0;
+    }
+ }
+ </style>
+</head>
+<body>
+
+  <nav style="background-color:grey"  align="center">
+  <a href="index.html" style="font-size: 24px; font-weight: bold;">Home</a> |
+  <a href="personal-profile.html" style="font-size: 24px; font-weight: bold;">Personal Profile</a> |
+  <a href="career-goals.html" style="font-size: 24px; font-weight: bold;">Career Goals</a> |
+  <a href="projects.html" style="font-size: 24px; font-weight: bold;">Projects</a> |
+  <a href="skills.html" style="font-size: 24px; font-weight: bold;">Skills</a> |
+  <a href="contact.html" style="font-size: 24px; font-weight: bold;">Contact Us</a>
+  </nav>
+
+  <h1>Contact Us</h1>
+
+  <div class="contact-container">
+    <!-- Contact Form -->
+    <form action="#" method="post">
+      <label for="name">Name</label>
+      <input type="text" id="name" name="name" placeholder="Your Name" required>
+
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email" placeholder="Your Email" required>
+
+      <label for="subject">Subject</label>
+      <input type="text" id="subject" name="subject" placeholder="Subject" required>
+
+      <label for="message">Messsage</label>
+      <textarea id="message" name="message" placeholder="Write your message here..." required></textarea>
+
+      <button type="submit">Send Message</button>
+    </form>
+
+    <!-- Contact Info -->
+    <div class="contact-info">
+      <p>Email: i250730@isb.nu.edu.pk</p>
+      <p>Phone: +1 23 245789</p>
+    </div>
+  </div>
+
+<footer>
+  <p>
+    <a href="https://github.com">GitHub</a> |
+    <a href="https://linkedin.com">LinkedIn</a> |
+    <a href="contact.html">Contact Me</a>
+  </p>
+</footer>
+  
+
+</body>
+</html>
